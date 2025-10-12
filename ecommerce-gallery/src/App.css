@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img1.png') center/cover no-repeat;
+  color: white;
+  padding: 80px 0;
+  border-radius: 0 0 15px 15px; /* Rounded bottom corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 1.3rem;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+}
+
+.hero-section .btn-light {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 50px; /* Pill-shaped button */
+  transition: all 0.3s ease;
+}
+
+.hero-section .btn-light:hover {
+  background-color: #e2e6ea;
+  color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+}
+
+.footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+  background-color: #212529 !important; /* Darker footer */
+  color: #adb5bd !important;
+  font-size: 0.9em;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
