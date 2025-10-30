@@ -1,0 +1,9 @@
+/* src/pages/BlogPostPage.css */
+/* No specific CSS for BlogPostPage if using styled-components extensively,
+   but you might have some specific overrides or global layout adjustments here. */
+/* For example, if you wanted to limit the width of the article content */
+.blog-post-detail {
+  max-width: 900px;
+  margin: 20px auto; /* Center the article */
+  padding: 0 15px; /* Add some padding on smaller screens */
+}
